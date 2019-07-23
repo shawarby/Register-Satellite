@@ -1,9 +1,9 @@
 - hosts: all
   gather_facts: no
   vars:
-    satellite_host: 10.216.47.11
-    activation_key: rhel
-    organization: Injazat-Data-Systems-LLC
+    satellite_host: "Hostname-or-IP"
+    activation_key: "Activation-key"
+    organization: "Organization-Name"
   tasks:
   - name: install katello CA file from satellite
     yum:
